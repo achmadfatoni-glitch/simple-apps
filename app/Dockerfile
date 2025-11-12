@@ -1,7 +1,7 @@
 FROM node:18.16
 RUN apt update -y
 WORKDIR /app
-ADD ./app
+ADD . /app
 LABEL author="achmad.fatoni@gmail.com"
 EXPOSE 3000
 CMD ["npm","start"]
