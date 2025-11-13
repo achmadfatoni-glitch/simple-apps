@@ -1,6 +1,7 @@
 services :
   simple-apps:
     container_name: ct-simpleapps
+    image: fatoni07/img-simpleapps
     build: ./app
     ports:
       - "10000:3000"
