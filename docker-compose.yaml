@@ -4,7 +4,7 @@ services :
     build: ./app
     image: fatoni07/img-simpleapps:v1-stable
     ports:
-      - "10000:3000"
+      - "100001:3000"
     restart: always
     deploy:
       resources:
